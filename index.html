@@ -19,7 +19,7 @@
   renderer.outputEncoding = THREE.sRGBEncoding;
   document.body.appendChild(renderer.domElement);
 
-  // 星空（Y 座標從 30 到 100，避免星星掉進水面）
+  // 星空
   const stars = new THREE.BufferGeometry();
   const starVerts = [];
   for (let i = 0; i < 800; i++) {
